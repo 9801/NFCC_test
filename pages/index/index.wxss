@@ -1,0 +1,34 @@
+/**index.wxss**/
+.container01 view {
+  width: 10%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+.container01 view:nth-child(1) {
+  background-color: aqua;
+}
+.container01 view:nth-child(2) {
+  background-color: #faceff;
+}
+.container01 view:nth-child(3) {
+  background-color: darkgoldenrod;
+}
+.container01 {
+  /* display: flex;
+  justify-content: space-around; */
+  border: 1px maroon solid;
+  width: 100%;
+  height: 10pc;
+}
+
+.buttonNFC {
+  background: #f52b50;
+  margin-top: 10px;
+  width: 70%;
+  color: white;
+}
+
+.down {
+  background-color: #f52b506b;
+}

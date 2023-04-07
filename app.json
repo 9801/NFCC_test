@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/set/set",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F52B50",
+    "navigationBarTitleText": "矫治器佩戴记录器",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#E52B50",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/images/tabs/index0.png",
+      "selectedIconPath": "/images/tabs/index1.png"
+    },{
+      "pagePath": "pages/set/set",
+      "text": "设置",
+      "iconPath": "/images/tabs/set0.png",
+      "selectedIconPath": "/images/tabs/set1.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath": "/images/tabs/log.png",
+      "selectedIconPath": "/images/tabs/log.png"
+    }]
+  }
+}

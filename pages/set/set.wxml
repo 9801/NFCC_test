@@ -1,0 +1,24 @@
+<!--pages/set/set.wxml-->
+
+
+
+<!-- Scroll View -->
+<scroll-view class="container01" scroll-y>
+  <view class="page">
+    <view class="page__bd">
+        <view class="section section_gap">
+            <view class="body-view">
+                <switch checked="{{switch1Checked}}" bindchange="switch1Change"/>
+            </view>
+        </view>
+
+        <view class="section section_gap">
+            <view class="body-view">
+                <switch type="checkbox" checked="{{switch2Checked}}" bindchange="switch2Change"/>
+            </view>
+        </view>
+    </view>
+  </view>
+</scroll-view>
+
+<button bindtap="connectWifi"></button>

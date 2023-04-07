@@ -1,0 +1,11 @@
+<!--index.wxml-->
+
+<!-- Scroll View -->
+<scroll-view class="container01" scroll-y>
+  <view>A</view>
+  <view>B</view>
+  <view>C</view>
+</scroll-view>
+<view class="container03">
+  <button bindtap="nfcRead" class="buttonNFC" hover-class="down">检查NFC功能</button>
+</view>
